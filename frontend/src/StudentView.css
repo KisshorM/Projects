@@ -1,0 +1,145 @@
+/* General container styling */
+.view-container, .edit-form {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Headings */
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  /* Form section styling */
+  .form-section, .section {
+    margin-bottom: 25px;
+  }
+  
+  /* Input and select field styling */
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="file"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  /* Labels and form groups */
+  label {
+    font-weight: 500;
+    color: #555;
+    display: block;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Submit button */
+  .submit-btn,
+  .search-box button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover,
+  .search-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Search Box */
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Error messages */
+  .error-message {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  /* Detail display rows */
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px dashed #ccc;
+  }
+  
+  .detail-label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .detail-value {
+    color: #333;
+  }
+  
+  /* Document grid */
+  .document-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+  }
+  
+  .document-item {
+    background: #fff;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .document-item label,
+  .document-label {
+    font-weight: bold;
+    color: #2d3436;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .document-link {
+    display: inline-block;
+    margin-top: 6px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .document-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* No document note */
+  .no-documents,
+  .document-note {
+    font-style: italic;
+    color: #999;
+    margin-top: 10px;
+  }
+  
